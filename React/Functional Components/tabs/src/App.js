@@ -11,11 +11,7 @@ function App() {
   return (
     <div className="App">
      <MyComponent movies={x} value={getvalue}/>
-     <textarea 
-                rows="4"
-                cols="50"
-                value={ tap }
-            ></textarea>
+    <h1>{ tap }</h1>
     </div>
   );
 }
