@@ -1,6 +1,6 @@
 
 import React,{useState} from 'react';
-import Example from './components/Example';
+import Todo from './components/Todo';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
   <div className="App">
- <Example/>
+ <Todo/>
 
   </div>
   );
